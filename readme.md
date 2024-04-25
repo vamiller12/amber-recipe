@@ -23,14 +23,14 @@ Amber is the first model in the LLM360 family. Amber is an 7B English language m
 
 | Hyperparameters      | Hyperparameter      | Value | Data Mix      | Subset      | Tokens (Billion) |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Total Parameters      | 6.7B       || Arxiv      | 30.00       |
-| Hidden Size   | 4096        || Book   | 28.86        |
-| Intermediate Size (MLPs)   | 11008        || C4   | 197.67        |
-| Number of Attention Heads   | 32        || Refined-Web   | 665.01        |
-| Number of Hidden Layers  | 32        || StarCoder   | 291.92        |
-| RMSNorm ɛ  | 1e^-6        || StackExchange   | 21.75        |
-| Max Seq Length   | 2048        || Wikipedia   | 23.90        |
-| Vocab Size | 32000 || Total | 1259.13 |
+|| Total Parameters      | 6.7B       || Arxiv      | 30.00       |
+|| Hidden Size   | 4096        || Book   | 28.86        |
+|| Intermediate Size (MLPs)   | 11008        || C4   | 197.67        |
+|| Number of Attention Heads   | 32        || Refined-Web   | 665.01        |
+|| Number of Hidden Layers  | 32        || StarCoder   | 291.92        |
+|| RMSNorm ɛ  | 1e^-6        || StackExchange   | 21.75        |
+|| Max Seq Length   | 2048        || Wikipedia   | 23.90        |
+|| Vocab Size | 32000 || Total | 1259.13 |
 
 
 
