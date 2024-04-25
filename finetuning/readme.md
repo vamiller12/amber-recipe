@@ -34,6 +34,24 @@
 | anon8231489123/ShareGPT_Vicuna_unfiltered   | 90k        | cc0-1.0 |
 | Total | 233k |  |
 
+# AmberSafe
+[AmberSafe](https://huggingface.co/LLM360/AmberSafe) is a safety-finetuned instruction model using [LLM360/AmberChat](https://huggingface.co/LLM360/AmberChat) as the base. It's an aligned version of the model finetuned with Direct Preference Optimization (DPO).
+
+## Model Description
+- **Model type:** Language model with the same architecture as LLaMA-7B
+- **Language(s) (NLP):** English
+- **License:** Apache 2.0
+- **Resources for more information:**
+  - [Metrics](https://github.com/LLM360/Analysis360)
+  - [Fully processed Amber pretraining data](https://huggingface.co/datasets/LLM360/AmberDatasets)
+
+## DataMix
+| Subset      | Number of rows |  License   |
+| ----------- | ----------- | ----------- |
+| [PKU-Alignment/PKU-SafeRLHF](https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF)    | 330k        | cc-by-nc-4.0 |
+| Total | 330k |  |
+
+
 ## Hyperparameters
 | Hyperparameter      | Value |
 | ----------- | ----------- |
@@ -79,22 +97,7 @@ You can try to adapt our [training script](amberchat/instruction_finetune.sh) to
 
 After the finetuning is done, you will find the checkpoints under `OUTPUT_DIR`, which can be loaded using `transformers`.
 
-# AmberSafe
-[AmberSafe](https://huggingface.co/LLM360/AmberSafe) is a safety-finetuned instruction model using [LLM360/AmberChat](https://huggingface.co/LLM360/AmberChat) as the base. It's an aligned version of the model finetuned with Direct Preference Optimization (DPO).
-
-## Model Description
-- **Model type:** Language model with the same architecture as LLaMA-7B
-- **Language(s) (NLP):** English
-- **License:** Apache 2.0
-- **Resources for more information:**
-  - [Metrics](https://github.com/LLM360/Analysis360)
-  - [Fully processed Amber pretraining data](https://huggingface.co/datasets/LLM360/AmberDatasets)
-
-## DataMix
-| Subset      | Number of rows |  License   |
-| ----------- | ----------- | ----------- |
-| [PKU-Alignment/PKU-SafeRLHF](https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF)    | 330k        | cc-by-nc-4.0 |
-| Total | 330k |  |
+----------Amber Safe Below-----
 
 ## Finetuning Methods
 [Direct Preference Optimization](https://arxiv.org/abs/2305.18290) (DPO) is a stable, efficient, and computationally lightweight approach for LLM alighment finetuning. It eliminates the need for reward model fitting, extensive sampling, and hyperparameter tuning.
