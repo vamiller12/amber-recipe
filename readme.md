@@ -23,10 +23,20 @@ To reproduce the entire training process, to proper order is:
 3. Improve the base model with chat specific functionality via [finetuning](./finetuning)
 4. Interact with model by [downloading Amber for inference](./inference)
 
+## Repository Organization
+
+Contains examples are organized in folders by topic:
+| Subfolder | Description |
+|---|---|
+[reproduce amber](./reproduce-amber)|Instructions to fully reproduce Amber from data prep to trained model
+[finetuning](./finetuning)|Scripts to finetune Amber for chat, SFT, and DPO alignment options
+[inference](./inference)|Scripts to deploy Amber for inference locally
+[evaluations and benchmarks](./evaluations)|Scripts to evaluation Amber and compare against LLM360's results
+
 ## About Amber
 Amber is the first model in the LLM360 family. Amber is an 7B English language model with the LLaMA architecture.
 
-## Amber Training Details
+## Training Details
 
 | Hyperparameters      | Hyperparameter      | Value | Data Mix      | Subset      | Tokens (Billion) |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -40,16 +50,6 @@ Amber is the first model in the LLM360 family. Amber is an 7B English language m
 || Vocab Size | 32000 || Total | 1259.13 |
 
 
-
-## Repository Organization
-
-Contains examples are organized in folders by topic:
-| Subfolder | Description |
-|---|---|
-[reproduce amber](./reproduce-amber)|Instructions to fully reproduce Amber from data prep to trained model
-[finetuning](./finetuning)|Scripts to finetune Amber for chat, SFT, and DPO alignment options
-[inference](./inference)|Scripts to deploy Amber for inference locally
-[evaluations and benchmarks](./evaluations)|Scripts to evaluation Amber and compare against LLM360's results
 
 ## About LLM360
 LLM360 is an initiative for comprehensive and fully open-sourced LLMs, 
