@@ -9,12 +9,14 @@
 
 This repository contains the code to prepare the data for the **Amber 7B language model**. 
 
-The final training data
+## Data Overview
+The training data
 comes from three sources:
 1. RedPajama V1 (we use the `arxiv`, `book`, `c4`, `github`, `stackexchange`, and `wikipedia` subsets)
 2. RefinedWeb (we use this to replace the common_crawl subset of RedPajama V1)
 3. StarCoderData
 
+## Data Preperation
 The data is prepared in the following steps:
 1. Download the untokenized data from the sources.
 2. Tokenize the data using the Huggingface tokenizer (`LLaMA` tokenizer in our case).
