@@ -1,4 +1,4 @@
-<h1 align="center">Amber: the first model of LLM360</h1>
+<h1 align="center">Amber: a 7B English language model with the LLaMA architecture.</h1>
 
 <div align="center">
    <img src="amber_logo.png" alt="amber logo" width="200"><br><br>
@@ -34,7 +34,7 @@ Contains examples are organized in folders by topic:
 [evaluations and benchmarks](./evaluations)|Scripts to evaluation Amber and compare against LLM360's results
 
 ## About Amber
-Amber is the first model in the LLM360 family. Amber is an 7B English language model with the LLaMA architecture.
+Amber is an 7B English language model with the LLaMA architecture.
 
 ## Training Details
 
