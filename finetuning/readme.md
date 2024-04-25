@@ -16,7 +16,7 @@ Start here:
 1. Follow the instructions in [AmberChat](./reproduce-amberchat) to transform Amber into AmberChat
 2. Once AmberChat is complete, use DPO to improve the AmberChat's output following the instructions to train [AmberSafe](./reproduce-ambersafe)
 
-# AmberChat
+# About AmberChat
 [AmberChat](https://huggingface.co/LLM360/AmberChat) is an instruction following model finetuned from [LLM360/Amber](https://huggingface.co/LLM360/Amber).
 
 ## Model Description
@@ -34,7 +34,7 @@ Start here:
 | anon8231489123/ShareGPT_Vicuna_unfiltered   | 90k        | cc0-1.0 |
 | Total | 233k |  |
 
-# AmberSafe
+# About AmberSafe
 [AmberSafe](https://huggingface.co/LLM360/AmberSafe) is a safety-finetuned instruction model using [LLM360/AmberChat](https://huggingface.co/LLM360/AmberChat) as the base. It's an aligned version of the model finetuned with Direct Preference Optimization (DPO).
 
 ## Model Description
