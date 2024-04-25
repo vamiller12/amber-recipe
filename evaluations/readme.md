@@ -1,15 +1,3 @@
+this should be set-by-step instructions on running the evaluation scripts
 
-| Training Loss                                                          |
-|------------------------------------------------------------------------|
-| <img src="figs/amber-training-loss.png" alt="loss curve" width="400"/> |
-
-
-# Evaluation
-
-| ARC                                                 | HellaSwag                                                  | 
-|------------------------------------------------------|------------------------------------------------------------|
-| <img src="figs/amber-arc-curve.png" alt="arc" width="400"/> | <img src="figs/amber-hellaswag-curve.png" alt="hellaswag" width="400"/> | 
-
-|MMLU                                                 | TruthfulQA                                                 |
-|-----------------------------------------------------|-----------------------------------------------------------|
-|<img src="figs/amber-mmlu-curve.png" alt="mmlu" width="400"/> | <img src="figs/amber-truthfulqa-curve.png" alt="truthfulqa" width="400"/> |
+we should also link to our WandB dashbaoad instead of posting pictures of graphs: https://wandb.ai/llm360/Amber?nw=lnzi8o2g4z
