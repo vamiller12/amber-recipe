@@ -35,7 +35,7 @@ Start here:
 | Total | 233k |  |
 
 ## Hyperparameters
-| Training Hyperparameter      | Value | | Hyperparameter      | Value |
+| Training Hyperparameters      | Value | | Model Hyperparameters      | Value |
 | ----------- | ----------- | ----------- |----------- | ----------- |
 | learning_rate      | 2e-5       || Total Parameters      | 6.7B       |
 | num_train_epochs  |  3        || Hidden Size   | 4096        |
