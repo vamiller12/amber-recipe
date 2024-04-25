@@ -1,15 +1,8 @@
 
 <h1 align="center">Finetuning Amber</h1>
 
-<div align="center">
-   <img src="../figs/amber_logo.png" alt="amber logo" width="300"><br><br>
-</div>
-
 ---
 
-<p align="center">
-   <a href="https://github.com/LLM360/Analysis360/blob/dev/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="license"></a>
-</p>
 <p align="center">
 • 🤗 <a href="https://huggingface.co/LLM360/AmberChat">[AmberChat Download]</a>
 • 🤗 <a href="https://huggingface.co/LLM360/AmberSafe">[AmberSafe Download]</a> 
