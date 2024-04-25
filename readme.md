@@ -23,7 +23,7 @@ To reproduce the entire training process, to proper order is:
 3. Improve the base model with chat specific functionality via [finetuning](./finetuning)
 4. Interact with model by [downloading Amber for inference](./inference)
 
-## Model Description
+## About Amber
 Amber is the first model in the LLM360 family. Amber is an 7B English language model with the LLaMA architecture.
 
 ## Amber Training Details
