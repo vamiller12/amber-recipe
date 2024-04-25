@@ -68,9 +68,6 @@
 
 
 
-----------Amber Safe Below-----
-
-
 
 # Citation
 
