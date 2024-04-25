@@ -10,10 +10,11 @@
    <a href="https://github.com/LLM360/Analysis360/blob/dev/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="license"></a>
 </p>
 
-## Overview
+# Overview
 
 All LLM360 models are trained and released to make access to LLM training knowledge accessible to all. This repo contains the complete training process and details we used to train Amber. 
 
+## Reproduce Amber
 The repo is organized into subfolders by function. 
 
 To reproduce the entire training process, to proper order is:
@@ -25,9 +26,7 @@ To reproduce the entire training process, to proper order is:
 ## Model Description
 Amber is the first model in the LLM360 family. Amber is an 7B English language model with the LLaMA architecture.
 
-# Amber Training Details
-
-
+## Amber Training Details
 
 | Hyperparameters      | Hyperparameter      | Value | Data Mix      | Subset      | Tokens (Billion) |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
