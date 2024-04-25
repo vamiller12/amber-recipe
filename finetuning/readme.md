@@ -34,6 +34,27 @@ Start here:
 | anon8231489123/ShareGPT_Vicuna_unfiltered   | 90k        | cc0-1.0 |
 | Total | 233k |  |
 
+## Hyperparameters
+| Training Hyperparameter      | Value || Hyperparameter      | Value |
+| ----------- | ----------- || ----------- | ----------- |
+| Total Parameters      | 6.7B       |
+| Hidden Size   | 4096        |
+| Intermediate Size (MLPs)   | 11008        |
+| Number of Attention Heads   | 32        |
+| Number of Hidden Lyaers  | 32        |
+| RMSNorm ɛ  | 1e^-6        |
+| Max Seq Length   | 2048        |
+| Vocab Size | 32000 |
+
+
+| ----------- | ----------- |
+| learning_rate      | 2e-5       |
+| num_train_epochs  |  3        |
+| per_device_train_batch_size   | 2        |
+| gradient_accumulation_steps  | 16        |
+| warmup_ratio | 0.04      |
+| model_max_length | 2048     |
+
 # About AmberSafe
 [AmberSafe](https://huggingface.co/LLM360/AmberSafe) is a safety-finetuned instruction model using [LLM360/AmberChat](https://huggingface.co/LLM360/AmberChat) as the base. It's an aligned version of the model finetuned with Direct Preference Optimization (DPO).
 
@@ -50,29 +71,6 @@ Start here:
 | ----------- | ----------- | ----------- |
 | [PKU-Alignment/PKU-SafeRLHF](https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF)    | 330k        | cc-by-nc-4.0 |
 | Total | 330k |  |
-
-
-## Hyperparameters
-| Hyperparameter      | Value |
-| ----------- | ----------- |
-| Total Parameters      | 6.7B       |
-| Hidden Size   | 4096        |
-| Intermediate Size (MLPs)   | 11008        |
-| Number of Attention Heads   | 32        |
-| Number of Hidden Lyaers  | 32        |
-| RMSNorm ɛ  | 1e^-6        |
-| Max Seq Length   | 2048        |
-| Vocab Size | 32000 |
-
-| Training Hyperparameter      | Value |
-| ----------- | ----------- |
-| learning_rate      | 2e-5       |
-| num_train_epochs  |  3        |
-| per_device_train_batch_size   | 2        |
-| gradient_accumulation_steps  | 16        |
-| warmup_ratio | 0.04      |
-| model_max_length | 2048     |
-
 
 
 
