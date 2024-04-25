@@ -9,37 +9,13 @@
 <p align="center">
    <a href="https://github.com/LLM360/Analysis360/blob/dev/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="license"></a>
 </p>
-<p align="center">
-🤗 <a href="https://huggingface.co/LLM360/Amber">[Amber Download]</a> • 🤗 <a href="https://huggingface.co/LLM360/AmberChat">[AmberChat Download]</a>  • 📈 <a href="https://github.com/LLM360/Analysis360/blob/main/README.md#list-of-analysis-and-metrics
-">[Analysis and Results]</a> • 📗 <a href="https://huggingface.co/datasets/LLM360/AmberDatasets">Pretraining Dataset</a>
-</p>
 
+## Overview
 
-
-## About LLM360
-LLM360 is an initiative for comprehensive and fully open-sourced LLMs, 
-where all training details, model checkpoints, intermediate results, and 
-additional analyses are made available to the community. Our goal is to advance 
-the field by inviting the community to deepen the understanding of LLMs 
-together. As the first step of the project LLM360, we release all intermediate 
-model checkpoints, our fully-prepared pre-training dataset, all source code and
-configurations, and training details. We are
-committed to continually pushing the boundaries of LLMs through this open-source 
-effort.
-
-Get access now at [LLM360 site](https://www.llm360.ai/)
+What is this all about
 
 ## Model Description
 Amber is the first model in the LLM360 family. Amber is an 7B English language model with the LLaMA architecture.
-
-- **Model type:** Language model with the same architecture as LLaMA-7B
-- **Language(s) (NLP):** English
-- **License:** Apache 2.0
-- **Resources for more information:**
-  - [Training Code](https://github.com/LLM360/amber-train)
-  - [Data Preparation](https://github.com/LLM360/amber-data-prep)
-  - [Metrics](https://github.com/LLM360/Analysis360)
-  - [Fully processed Amber pretraining data](https://huggingface.co/datasets/LLM360/AmberDatasets)
 
 # Amber Training Details
 
@@ -67,7 +43,31 @@ Amber is the first model in the LLM360 family. Amber is an 7B English language m
 | Max Seq Length   | 2048        |
 | Vocab Size | 32000 |
 
+## Repository Organization
+Most of the code dealing with Llama usage is organized across 2 main folders: `recipes/` and `src/`.
 
+### `recipes/`
+
+Contains examples are organized in folders by topic:
+| Subfolder | Description |
+|---|---|
+[reproduce amber](./reproduce-amber)|Instructions to fully reproduce Amber from data prep to trained model
+[finetuning](./finetuning)|Scripts to finetune Amber for chat, SFT, and DPO alignment options
+[inference](./inference)|Scripts to deploy Amber for inference locally
+[evaluations and benchmarks](./evaluations)|Scripts to evaluation Amber and compare against LLM360's results
+
+## About LLM360
+LLM360 is an initiative for comprehensive and fully open-sourced LLMs, 
+where all training details, model checkpoints, intermediate results, and 
+additional analyses are made available to the community. Our goal is to advance 
+the field by inviting the community to deepen the understanding of LLMs 
+together. As the first step of the project LLM360, we release all intermediate 
+model checkpoints, our fully-prepared pre-training dataset, all source code and
+configurations, and training details. We are
+committed to continually pushing the boundaries of LLMs through this open-source 
+effort.
+
+Get access now at [LLM360 site](https://www.llm360.ai/)
 
 # Citation
 
