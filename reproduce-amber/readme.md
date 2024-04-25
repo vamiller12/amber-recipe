@@ -1,9 +1,7 @@
 <h1 align="center">Reproducing Amber</h1>
 
-<div align="center">
-   <img src="amber-recipe/amber_logo.png" alt="amber logo" width="150"><br><br>
-</div>
-
 ---
+Following the steps in this repo will allow you to completely reproduce Amber.
 
-# Overview
+How to navigate this repo:
+1. Begin by downloading and preparing [the data]() 
