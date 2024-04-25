@@ -35,9 +35,6 @@ Amber is the first model in the LLM360 family. Amber is an 7B English language m
 
 
 ## Repository Organization
-Most of the code dealing with Llama usage is organized across 2 main folders: `recipes/` and `src/`.
-
-### `recipes/`
 
 Contains examples are organized in folders by topic:
 | Subfolder | Description |
