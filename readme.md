@@ -21,7 +21,7 @@ Amber is the first model in the LLM360 family. Amber is an 7B English language m
 
 
 
-| | Hyperparameters      | Hyperparameter      | Value | Data Mix      | Subset      | Tokens (Billion) |
+| Hyperparameters      | Hyperparameter      | Value | Data Mix      | Subset      | Tokens (Billion) |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Total Parameters      | 6.7B       || Arxiv      | 30.00       |
 | Hidden Size   | 4096        || Book   | 28.86        |
