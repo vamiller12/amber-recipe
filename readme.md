@@ -1,7 +1,7 @@
 <h1 align="center">Amber: the first model of LLM360</h1>
 
 <div align="center">
-   <img src="amber_logo.png" alt="amber logo" width="300"><br><br>
+   <img src="amber_logo.png" alt="amber logo" width="200"><br><br>
 </div>
 
 ---
