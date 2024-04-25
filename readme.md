@@ -18,10 +18,10 @@ All LLM360 models are trained and released to make access to LLM training knowle
 The repo is organized into subfolders by function. 
 
 To reproduce the entire training process, to proper order is:
-1. [reproduce amber](./reproduce-amber) 
-2. [evaluations and benchmarks](./evaluations)
-3. [finetuning](./finetuning)
-4. [inference](./inference)
+1. Begin by [pretraining the model](./reproduce-amber) 
+2. Determine the models performance through [evaluations and benchmarks](./evaluations)
+3. Improve the base model with chat specific functionality via [finetuning](./finetuning)
+4. Interact with model by [downloading Amber for inference](./inference)
 
 ## Model Description
 Amber is the first model in the LLM360 family. Amber is an 7B English language model with the LLaMA architecture.
