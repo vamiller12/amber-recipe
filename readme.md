@@ -41,22 +41,6 @@ Amber is the first model in the LLM360 family. Amber is an 7B English language m
   - [Metrics](https://github.com/LLM360/Analysis360)
   - [Fully processed Amber pretraining data](https://huggingface.co/datasets/LLM360/AmberDatasets)
 
-
-# Loading Amber 
-
-```python
-from transformers import LlamaTokenizer, LlamaForCausalLM
-
-tokenizer = LlamaTokenizer.from_pretrained("LLM360/Amber", revision="ckpt_356")
-model = LlamaForCausalLM.from_pretrained("LLM360/Amber", revision="ckpt_356")
-
-input_text = "translate English to German: How old are you?"
-input_ids = tokenizer(input_text, return_tensors="pt").input_ids
-
-outputs = model.generate(input_ids)
-print(tokenizer.decode(outputs[0]))
-```
-
 # Amber Training Details
 
 ## DataMix
@@ -83,20 +67,7 @@ print(tokenizer.decode(outputs[0]))
 | Max Seq Length   | 2048        |
 | Vocab Size | 32000 |
 
-| Training Loss                                                          |
-|------------------------------------------------------------------------|
-| <img src="figs/amber-training-loss.png" alt="loss curve" width="400"/> |
 
-
-# Evaluation
-
-| ARC                                                 | HellaSwag                                                  | 
-|------------------------------------------------------|------------------------------------------------------------|
-| <img src="figs/amber-arc-curve.png" alt="arc" width="400"/> | <img src="figs/amber-hellaswag-curve.png" alt="hellaswag" width="400"/> | 
-
-|MMLU                                                 | TruthfulQA                                                 |
-|-----------------------------------------------------|-----------------------------------------------------------|
-|<img src="figs/amber-mmlu-curve.png" alt="mmlu" width="400"/> | <img src="figs/amber-truthfulqa-curve.png" alt="truthfulqa" width="400"/> |
 
 # Citation
 
