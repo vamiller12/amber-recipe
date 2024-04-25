@@ -20,6 +20,7 @@ Amber is the first model in the LLM360 family. Amber is an 7B English language m
 # Amber Training Details
 
 ## DataMix
+| test      |
 | Subset      | Tokens (Billion) |
 | ----------- | ----------- |
 | Arxiv      | 30.00       |
