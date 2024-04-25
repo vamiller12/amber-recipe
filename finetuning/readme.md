@@ -11,7 +11,7 @@
 # Overview
 Extending a base model's capability to use case requires is often vital for adoption. This repo contains instructions for instruction tuning Amber to AmberChat. AmberChat can be further tuned to make output safer using the instructions in AmberSafe.
 
-##How to use this repo
+## How to use this repo
 Start here:
 1. Follow the instructions in [AmberChat](./reproduce-amberchat) to transform Amber into AmberChat
 2. Once AmberChat is complete, use DPO to improve the AmberChat's output following the instructions to train [AmberSafe](./reproduce-ambersafe)
